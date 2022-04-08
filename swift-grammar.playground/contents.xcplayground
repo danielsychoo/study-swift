@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='CH01_04_상수와_변수'/>
+        <page name='CH01_05_기본_데이터_타입'/>
+        <page name='CH01_06_컬렉션_타입'/>
+        <page name='CH01_07_함수_사용법'/>
+        <page name='CH01_08_조건문'/>
+        <page name='CH01_09_반복문'/>
+        <page name='CH01_10_옵셔널'/>
+        <page name='CH01_11_옵셔널_바인딩'/>
+        <page name='CH01_12_구조체'/>
+        <page name='CH01_13_클래스'/>
+        <page name='CH01_14_초기화_구문_init'/>
+        <page name='CH01_15_프로퍼티'/>
+        <page name='CH01_16_클래스와_구조체의_차이'/>
+        <page name='CH01_17_상속'/>
+        <page name='CH01_18_타입캐스팅'/>
+        <page name='CH01_19_assert와_guard'/>
+        <page name='CH01_20_프로토콜'/>
+        <page name='CH01_21_익스텐션'/>
+        <page name='CH01_22_열거형'/>
+        <page name='CH01_24_try-catch'/>
+        <page name='CH01_25_클로저'/>
+        <page name='CH01_26_고차함수'/>
+    </pages>
+</playground>
