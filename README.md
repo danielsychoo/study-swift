@@ -3,5 +3,6 @@
 ```planetext
 study-swift -- [repository]
   ┣ 0-swift-grammar.playground -- [0. Swift 문법 공부]
-  ┗ 1-1-AutoLayoutExample -- [1-1. AutoLayout 실습]
+  ┣ 1-1-AutoLayoutExample -- [1-1. AutoLayout 실습]
+  ┗ 1-2-QuotesGenerator -- [1-2. 명언생성기 실습]
 ```
