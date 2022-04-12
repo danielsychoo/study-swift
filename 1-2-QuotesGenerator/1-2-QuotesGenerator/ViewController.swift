@@ -8,12 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var quoteLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        getRandomQoutes(quoteLabel, nameLabel)
     }
 
-
+    @IBAction func tabQuoteGeneratorButton(_ sender: Any) {
+        getRandomQoutes(quoteLabel, nameLabel)
+    }
 }
 

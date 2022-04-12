@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0412C5602804FD2C000ECFEA /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412C55F2804FD2C000ECFEA /* Quote.swift */; };
 		04E500B82803AC1200B27059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E500B72803AC1200B27059 /* AppDelegate.swift */; };
 		04E500BA2803AC1200B27059 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E500B92803AC1200B27059 /* SceneDelegate.swift */; };
 		04E500BC2803AC1200B27059 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E500BB2803AC1200B27059 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0412C55F2804FD2C000ECFEA /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		04E500B42803AC1200B27059 /* 1-2-QuotesGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1-2-QuotesGenerator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E500B72803AC1200B27059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E500B92803AC1200B27059 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				04E500B72803AC1200B27059 /* AppDelegate.swift */,
 				04E500B92803AC1200B27059 /* SceneDelegate.swift */,
 				04E500BB2803AC1200B27059 /* ViewController.swift */,
+				0412C55F2804FD2C000ECFEA /* Quote.swift */,
 				04E500BD2803AC1200B27059 /* Main.storyboard */,
 				04E500C02803AC1300B27059 /* Assets.xcassets */,
 				04E500C22803AC1300B27059 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0412C5602804FD2C000ECFEA /* Quote.swift in Sources */,
 				04E500BC2803AC1200B27059 /* ViewController.swift in Sources */,
 				04E500B82803AC1200B27059 /* AppDelegate.swift in Sources */,
 				04E500BA2803AC1200B27059 /* SceneDelegate.swift in Sources */,
