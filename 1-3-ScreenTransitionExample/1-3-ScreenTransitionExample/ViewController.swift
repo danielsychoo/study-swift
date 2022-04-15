@@ -15,5 +15,18 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func tabCodePushButton(_ sender: UIButton) {
+        guard let viewController = self.storyboard?.instantiateViewController(withIdentifier: "CodePushViewController") else { return }
+        
+        self.navigationController?.pushViewController(viewController, animated: true)
+    }
+    
+    
+    @IBAction func tabCodePresentButton(_ sender: UIButton) {
+        guard let viewController = self.storyboard?.instantiateViewController(withIdentifier: "CodePresentViewController") else { return }
+        
+        //  viewController.modalPresentationStyle = .fullScreen // modal 전체화면
+        self.present(viewController, animated: true, completion: nil)
+    }
 }
 
