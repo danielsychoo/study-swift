@@ -14,7 +14,7 @@
 		040760C2280CE13400135322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040760C1280CE13400135322 /* Assets.xcassets */; };
 		040760C5280CE13400135322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040760C3280CE13400135322 /* LaunchScreen.storyboard */; };
 		040760CD280CE35B00135322 /* CodePushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040760CC280CE35B00135322 /* CodePushedViewController.swift */; };
-		040760CF280CE36F00135322 /* CodePresentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040760CE280CE36F00135322 /* CodePresentedViewController.swift */; };
+		04405DC0280EA2C7009C4BB9 /* SeguePushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04405DBF280EA2C7009C4BB9 /* SeguePushedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		040760C4280CE13400135322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040760C6280CE13400135322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		040760CC280CE35B00135322 /* CodePushedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePushedViewController.swift; sourceTree = "<group>"; };
-		040760CE280CE36F00135322 /* CodePresentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePresentedViewController.swift; sourceTree = "<group>"; };
+		04405DBF280EA2C7009C4BB9 /* SeguePushedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePushedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 				040760C3280CE13400135322 /* LaunchScreen.storyboard */,
 				040760C6280CE13400135322 /* Info.plist */,
 				040760CC280CE35B00135322 /* CodePushedViewController.swift */,
-				040760CE280CE36F00135322 /* CodePresentedViewController.swift */,
+				04405DBF280EA2C7009C4BB9 /* SeguePushedViewController.swift */,
 			);
 			path = "1-5-DataForwardingExample";
 			sourceTree = "<group>";
@@ -146,9 +146,9 @@
 			files = (
 				040760CD280CE35B00135322 /* CodePushedViewController.swift in Sources */,
 				040760BD280CE13200135322 /* ViewController.swift in Sources */,
+				04405DC0280EA2C7009C4BB9 /* SeguePushedViewController.swift in Sources */,
 				040760B9280CE13200135322 /* AppDelegate.swift in Sources */,
 				040760BB280CE13200135322 /* SceneDelegate.swift in Sources */,
-				040760CF280CE36F00135322 /* CodePresentedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

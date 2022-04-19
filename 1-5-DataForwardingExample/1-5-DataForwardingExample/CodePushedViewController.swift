@@ -31,7 +31,7 @@ class CodePushedViewController: UIViewController {
     @IBAction func tabBackButton(_ sender: UIButton) {
         // 3. 데이터 전달
         // 데이터를 전달받을 ViewController에서 SendDataDelegate protocol을 채택하고
-        // delegate를 위임받게되면, protocol을 채택핸 ViewController에서
+        // delegate를 위임받게되면, protocol을 채택한 ViewController에서
         // delagate.sendData가 실행되게 된다.
         self.delegate?.sendData(name: "Choo")
         
