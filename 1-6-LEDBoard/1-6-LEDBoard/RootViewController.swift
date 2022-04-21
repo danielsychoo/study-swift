@@ -18,13 +18,13 @@ class RootViewController: UIViewController, LEDBoardSettingsDelegate {
     
     // segue로 화면전환 했으므로
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let settingsViewController = segue.destination as? SettingsViewController {
-            settingsViewController.delegate = self // 전달 받기위한 위임
-            
-            settingsViewController.ledText = self.contentLabel.text // 전달
-            settingsViewController.textColor = self.contentLabel.textColor // 전달
-            settingsViewController.backGroundColor = self.view.backgroundColor ?? .black // 전달
-        } else { return }
+        guard let settingsViewConroller = segue.destination as? SettingsViewController else { return }
+        
+        settingsViewConroller.delegate = self // 전달받기 위한 위임
+        
+        settingsViewConroller.ledText = self.contentLabel.text // 전달
+        settingsViewConroller.textColor = self.contentLabel.textColor // 전달
+        settingsViewConroller.backGroundColor = self.view.backgroundColor ?? .black // 전달
     }
     
     // Delegate에 정의한 함수
