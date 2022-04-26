@@ -18,3 +18,4 @@ study-swift
 ## 2. Basic Projects (간단한 프로젝트)
 
 1. Calculator -- 계산기 app -- ([danielsychoo/iOS-Calculator repository](https://github.com/danielsychoo/iOS-Calculator))
+2. TodoList -- TodoList app -- ([danielsychoo/iOS-TodoList repository](https://github.com/danielsychoo/iOS-TodoList))
