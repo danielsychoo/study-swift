@@ -15,7 +15,27 @@ study-swift
   ┗ 1-6-LEDBoard -- [1-6. LED 전광판 mini project]
 ```
 
-## 2. Basic Projects (간단한 프로젝트)
+</br>
+
+## 2. Basic Projects
 
 1. Calculator -- 계산기 app -- ([danielsychoo/iOS-Calculator repository](https://github.com/danielsychoo/iOS-Calculator))
-2. TodoList -- TodoList app -- ([danielsychoo/iOS-TodoList repository](https://github.com/danielsychoo/iOS-TodoList))
+2. TodoList(미완) -- TodoList app -- ([danielsychoo/iOS-TodoList repository](https://github.com/danielsychoo/iOS-TodoList))
+
+</br>
+
+## 3. Intermediate
+
+1.
+
+</br>
+
+## 4. Upper Intermediate
+
+1. AppStore -- AppStore app -- ([danielsychoo/iOS-AppStore](https://github.com/danielsychoo/iOS-AppStore))
+
+</br>
+
+## 5. Advanced
+
+1.
